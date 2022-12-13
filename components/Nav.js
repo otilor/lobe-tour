@@ -89,10 +89,10 @@ export default function Example() {
     <Popover className="relative bg-white">
       <div className="flex justify-between items-center px-4 py-6 sm:px-6 md:justify-start md:space-x-10">
         <div className="flex justify-start lg:w-0 lg:flex-1">
-          <a href="#">
+          <a href="#" className="ml-14">
             {/* <span className="sr-only">Workflow</span> */}
             <svg
-              width="196px"
+              width="96px"
               height="52px"
               viewBox="0 0 196 52"
               version="1.1"
