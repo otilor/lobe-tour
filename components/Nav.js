@@ -92,7 +92,7 @@ export default function Example() {
           <a href="#" className="ml-14">
             {/* <span className="sr-only">Workflow</span> */}
             <svg
-              width="96px"
+              width="80px"
               height="52px"
               viewBox="0 0 196 52"
               version="1.1"
