@@ -197,16 +197,7 @@ export default function Example() {
         </Popover.Group>
         <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0"></div>
       </div>
-      <div className="align-items-center justify-center h-screen mx-auto">
-        <div class="sm:text-center">
-          <h1 class="text-6xl font-bold tracking-wide leading-8">
-            Lobe <span className="text-tour-green">Tour</span>
-          </h1>
-          <p class="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-600">
-            Build your first machine learning model in ten minutes. No code or experience required.
-          </p>
-        </div>
-      </div>
+      
 
       <Transition
         as={Fragment}
