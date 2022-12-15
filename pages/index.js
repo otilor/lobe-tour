@@ -26,7 +26,7 @@ export default function Home() {
         </div>
 
         <div className="mx-auto">
-            <Image className='mx-auto' width={500} height={500} alt="YouTube frame" src="/images/Video.jpeg"/>
+            <Image className='mx-auto rounded-2xl' width={500} height={500} alt="YouTube frame" src="/images/Video.jpeg"/>
         </div>
       </main>
 
