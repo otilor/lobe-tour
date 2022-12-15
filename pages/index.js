@@ -13,7 +13,7 @@ export default function Home() {
 
       <main>
         <Nav />
-        <div className="align-items-center justify-center mx-auto">
+        <div className="mx-auto">
           <div class="sm:text-center">
             <h1 class="text-6xl font-bold tracking-wide">
               Lobe <span className="text-tour-green">Tour</span>
@@ -25,7 +25,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="align-items-center justify-center mx-auto">
+        <div className="mx-auto">
           <div>
             <Image width={500} height={500} alt="YouTube frame" src="/images/Video.jpeg"/>
           </div>
