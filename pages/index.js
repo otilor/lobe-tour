@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import Nav from "../components/Nav";
 
 export default function Home() {
@@ -30,7 +31,9 @@ export default function Home() {
         </div>
 
         <div className="mx-auto mt-24 text-center">
-          <h2 className="text-6xl w-1/2 mx-auto font-bold"> Train your app with Lobe</h2>
+          <h2 className="text-6xl w-1/2 mx-auto font-bold mb-12"> Train your app with Lobe</h2>
+
+          <Link href="#" className="bg-tour-green text-white text-xl font-bold p-5 rounded-3xl">Download</Link>
         </div>
       </main>
 
