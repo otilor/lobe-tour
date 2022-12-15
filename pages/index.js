@@ -28,6 +28,10 @@ export default function Home() {
         <div className="mx-auto mt-12">
             <Image className='mx-auto rounded-2xl hover:cursor-pointer hover:drop-shadow-2xl' width={800} height={800} alt="YouTube frame" src="/images/Video.jpeg"/>
         </div>
+
+        <div className="mx-auto mt-24 text-center">
+          <h2 className="text-6xl w-1/2 mx-auto font-bold"> Train your app with Lobe</h2>
+        </div>
       </main>
 
       <footer></footer>
