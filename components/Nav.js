@@ -97,7 +97,6 @@ export default function Example() {
               viewBox="0 0 196 52"
               version="1.1"
               xmlns="http://www.w3.org/2000/svg"
-              
             >
               <defs>
                 <path
@@ -197,6 +196,17 @@ export default function Example() {
           </a>
         </Popover.Group>
         <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0"></div>
+      </div>
+      <div className="align-items-center justify-center h-screen mx-auto">
+        <div class="sm:text-center">
+          <h1 class="text-3xl font-semibold tracking-wide leading-8 text-indigo-600">
+            Lobe <span>Tour</span>
+          </h1>
+          <p class="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-600">
+            Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam
+            voluptatum cupiditate veritatis in accusamus quisquam.
+          </p>
+        </div>
       </div>
 
       <Transition
