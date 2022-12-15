@@ -14,7 +14,7 @@ export default function Home() {
         <Nav />
         <div className="align-items-center justify-center h-screen mx-auto">
           <div class="sm:text-center">
-            <h1 class="text-6xl font-bold tracking-wide leading-8">
+            <h1 class="text-6xl font-bold tracking-wide">
               Lobe <span className="text-tour-green">Tour</span>
             </h1>
             <p class="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-600">
