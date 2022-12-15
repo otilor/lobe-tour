@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import Nav from "../components/Nav";
 
 export default function Home() {
@@ -12,7 +13,7 @@ export default function Home() {
 
       <main>
         <Nav />
-        <div className="align-items-center justify-center h-screen mx-auto">
+        <div className="align-items-center justify-center mx-auto">
           <div class="sm:text-center">
             <h1 class="text-6xl font-bold tracking-wide">
               Lobe <span className="text-tour-green">Tour</span>
@@ -21,6 +22,12 @@ export default function Home() {
               Build your first machine learning model in ten minutes. No code or
               experience required.
             </p>
+          </div>
+        </div>
+
+        <div className="align-items-center justify-center mx-auto">
+          <div>
+            <Image width={500} height={500} alt="YouTube frame" src="/images/Video.jpeg"/>
           </div>
         </div>
       </main>
