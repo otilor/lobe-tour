@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+import Footer from "../components/Footer";
 import Nav from "../components/Nav";
 
 export default function Home() {
@@ -37,7 +38,10 @@ export default function Home() {
         </div>
       </main>
 
-      <footer></footer>
+      <footer className="mt-12 mx-12">
+        <Footer />
+      </footer>
+      
     </div>
   );
 }
