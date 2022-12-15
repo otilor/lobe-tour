@@ -8,6 +8,9 @@ module.exports = {
     extend: {
       colors: {
         'tour-green': '#04ddb2'
+      },
+      fontFamily: {
+        'sans': ['Lab Grotesque', ...defaultTheme.fontFamily.sans],
       }
     },
   },
