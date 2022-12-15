@@ -25,7 +25,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="mx-auto">
+        <div className="mx-auto mt-12">
             <Image className='mx-auto rounded-2xl hover:cursor-pointer hover:drop-shadow-2xl' width={500} height={500} alt="YouTube frame" src="/images/Video.jpeg"/>
         </div>
       </main>
