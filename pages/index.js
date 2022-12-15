@@ -17,7 +17,7 @@ export default function Home() {
             <h1 class="text-6xl font-bold tracking-wide">
               Lobe <span className="text-tour-green">Tour</span>
             </h1>
-            <p class="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-600">
+            <p class="mx-auto mt-6 max-w-2xl text-2xl leading-8 text-gray-600">
               Build your first machine learning model in ten minutes. No code or
               experience required.
             </p>
